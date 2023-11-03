@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="TomsApplesStylesheet.css">
+	<title>Tom's Apples</title>
+</head>
+<body>
+
+<h1>Toms Apples</h1>
+	<div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+    <div class="overlay-content">
+      <a href = TomsApplesHome.html>Home</a>
+	  <a href = TomsApplesViewOurApples.php>View our Apples</a>
+	  <a href = TomsApplesTourOurOrchard.php>Tour our Orchards</a>
+	  <a href = TomsBio.php>Our Story</a>
+	  <a href = TomsApplesCommunityHours.html>Community Hours</a>
+	  <a href = TomsApplesExtra.html>Extra</a>
+	</div>
+  </div>
+  
+  <span style="font-size:60px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  
+
+
+<div class = main>
+    <form action="TomsApplesNameForm.php" method="POST">
+ 	  <label for="fname">First name:</label><br>
+  	    <input type="text" id="fname" name="fname" value="John"><br>
+  	  <label for="lname">Last name:</label><br>
+  		<input type="text" id="lname" name="lname" value="Doe"><br><br>
+  		<input type="submit" name= "submit" value="Submit">
+	</form>
+  </div>
+  
+  <p>hello</p>
+<br><br>
+<p>hola</p>
+<br><br>
+<p>hi</p>
+<br><br>
+<p>hello</p>
+  
+  <script type="text/javascript" src="TomsApplesMenuBar.js"></script>
+  
+</body>
+
+</html>
